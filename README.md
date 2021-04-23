@@ -17,4 +17,5 @@ A DIY binary keyboard.
 4. Open the firmware in the Arduino studio
   1. Go to Tools and change "Board" to "Teensy 4.0", and "USB Type" to "Keyboard"
   2. Then go to Sketch and Upload
+
 Your keyboard should be ready to go
