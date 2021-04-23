@@ -19,3 +19,8 @@ A DIY binary keyboard.
   2. Then go to Sketch and Upload
 
 Your keyboard should be ready to go
+
+## TODO:
+* Test GPIO 20's code a bit better, I think I was rushing to finish it at the time.
+* Document the building stage better. Add pictures, maybe film a video
+* Upload the updated PCBs. Test those first.
