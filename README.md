@@ -20,7 +20,11 @@ A DIY binary keyboard.
 
 Your keyboard should be ready to go
 
+## How to use:
+When the BinKey is initially plugged in or a new firmware is flashed, the built-in debug LED will flash the morse code for "OK". This will let you know that the device is working. Once this has flashed up, simply type the ASCII (from MSB) for the character you would like to type and once all 8 bits have been entered the keypress will be sent to the computer. 
+
+This can type uppercase, lowercase, numbers, and special characters. 'Delete' can also be sent, but I haven't tried any other mod keys like that. If you give it a try, let me know the results
+
 ## TODO:
-* Test GPIO 20's code a bit better, I think I was rushing to finish it at the time.
 * Document the building stage better. Add pictures, maybe film a video
 * Upload the updated PCBs. Test those first.
