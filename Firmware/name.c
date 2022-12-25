@@ -6,11 +6,11 @@
   }
 #define MANUFACTURER_NAME_LEN 11
 
-#define PRODUCT_NAME                  \
-  {                                   \
-    'B', 'i', 'n', 'K', 'e', 'y', 's' \
+#define PRODUCT_NAME                                 \
+  {                                                  \
+    'B', 'i', 'n', 'K', 'e', 'y', ' ', '1', '.', '1' \
   }
-#define PRODUCT_NAME_LEN 7
+#define PRODUCT_NAME_LEN 10
 
 #define SERIAL_NUMBER       \
   {                         \
