@@ -19,11 +19,11 @@ void setup() {
   pinMode(21, INPUT_PULLUP);    // 0 key
   pinMode(22, INPUT_PULLUP);    // 1 key
 
-    // debug LED
+  // debug LED
   pinMode(13, OUTPUT);
   digitalWrite(13, LOW);
   
-  // LED flashes morse 'OK' when setup is complete
+  // Debug LED flashes morse 'OK' when setup is complete
   // O
   digitalWrite(13, HIGH);
   delay(500);
