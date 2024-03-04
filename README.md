@@ -25,6 +25,14 @@ When the BinKey is initially plugged in or a new firmware is flashed, the built-
 
 This can type uppercase, lowercase, numbers, and special characters. 'Delete' can also be sent, but I haven't tried any other mod keys like that. If you give it a try, let me know the results
 
+## Troubleshooting:
+### It's typing the wrong characters?
+When flashing the keyboard with teensyduino, make sure to set the right keyboard layout with "Tools > Keyboard layout". Make sure this matches your computers keyboard layout to ensure you type the characters you're expecting.
+
+### Sometimes it types nothing?
+Unfortunately not every character is supported by the Teensy's Keyboard library. You can get a list of supported keys on the Teensy's website [here](https://www.pjrc.com/teensy/td_keyboard.html). I haven't yet taken the time to map out the supported keys but it's on my todo list. 
+
+
 ## TODO:
 * Document the building stage better. Add pictures, maybe film a video
 * Upload the updated PCBs. Test those first.
